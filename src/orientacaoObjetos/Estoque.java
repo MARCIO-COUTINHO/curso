@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import entities.Product;
 
-public class Exercicio4 {
+public class Estoque {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);

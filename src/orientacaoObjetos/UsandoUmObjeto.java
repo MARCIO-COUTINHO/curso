@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import util.CurrencyConverter;
 
-public class Exercicio3 {
+public class UsandoUmObjeto {
 
 	public static void main(String[] args) {
 

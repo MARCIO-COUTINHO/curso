@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import entities.ContaBancaria;
 
-public class Exercicio5 {
+public class UsandoUmObjeto1 {
 
 	public static void main(String[] args) {
 

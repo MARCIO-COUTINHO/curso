@@ -3,7 +3,7 @@ package orientacaoObjetos;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio1 {
+public class Triangulo {
 
 	public static void main(String[] args) {
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import entities.Triangle;
 
-public class Exercicio2 {
+public class Triangulo2 {
 
 	public static void main(String[] args) {
 
