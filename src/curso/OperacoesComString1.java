@@ -1,6 +1,6 @@
 package curso;
 
-public class Exercicio3 {
+public class OperacoesComString1 {
 
 	public static void main(String[] args) {
 		

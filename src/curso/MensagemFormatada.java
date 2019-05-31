@@ -2,7 +2,7 @@ package curso;
 
 import java.util.Locale;
 
-public class Exercicio1 {
+public class MensagemFormatada {
 
 	public static void main(String[] args) {
 		

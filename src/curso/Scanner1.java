@@ -2,7 +2,7 @@ package curso;
 
 import java.util.Scanner;
 
-public class Exercicio5 {
+public class Scanner1 {
 
 	public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package curso;
 
-public class Exercicio14 {
+public class OperadorTernario {
 
 	public static void main(String[] args) {
 

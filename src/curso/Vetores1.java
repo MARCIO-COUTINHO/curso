@@ -3,7 +3,7 @@ package curso;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Vetores {
+public class Vetores1 {
 
 	public static void main(String[] args) {
 

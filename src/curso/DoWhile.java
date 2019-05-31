@@ -3,7 +3,7 @@ package curso;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio18 {
+public class DoWhile {
 
 	public static void main(String[] args) {
 

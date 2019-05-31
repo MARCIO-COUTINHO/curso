@@ -2,7 +2,7 @@ package curso;
 
 import java.util.Scanner;
 
-public class Exercicio10 {
+public class MaiorDeTresNumeros {
 
 	public static void main(String[] args) {
 		
