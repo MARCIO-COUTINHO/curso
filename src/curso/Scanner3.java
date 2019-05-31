@@ -31,7 +31,7 @@ public class Scanner3 {
 		System.out.println(price);
 		System.out.println(lastName);
 		System.out.println(height);
-		
+		sc.close();
 	}
 
 }

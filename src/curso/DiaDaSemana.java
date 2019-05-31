@@ -27,6 +27,7 @@ public class DiaDaSemana {
 			day = "Invalid value";
 		}
 		System.out.println("Day: " + day);
+		sc.close();
 
 	}
 
