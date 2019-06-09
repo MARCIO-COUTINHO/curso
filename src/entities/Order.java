@@ -13,6 +13,27 @@ public class Order {
 
 	}
 
+	public Order(Date moment, OrderStatus status, Client client) {
+		this.moment = moment;
+		this.status = status;
+		this.client = client;
+	}
+
+	public Order(Integer id, Date moment, OrderStatus status, Client client, List<OrderItem> items) {
+		this.id = id;
+		this.moment = moment;
+		this.status = status;
+		this.client = client;
+		this.items = items;
+	}
+
+	public Order(Integer id, Date moment, OrderStatus status) {
+		super();
+		this.id = id;
+		this.moment = moment;
+		this.status = status;
+	}
+
 	private static final SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
 	private Integer id;
@@ -22,11 +43,6 @@ public class Order {
 	private Client client;
 	private List<OrderItem> items = new ArrayList<>();
 
-	public Order(Date moment, OrderStatus status, Client client) {
-		this.moment = moment;
-		this.status = status;
-		this.client = client;
-	}
 
 	public Date getMoment() {
 		return moment;
