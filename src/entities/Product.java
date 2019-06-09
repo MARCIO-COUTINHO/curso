@@ -9,26 +9,35 @@ public class Product {
 	public Product() {
 	}
 
-		public Product(String name, double price) {
+	public Product(String name) {
+		this.name = name;
+	}
+
+	public Product(String name, double price) {
 		this.name = name;
 		this.price = price;
-		}
-		public String getName() {
+	}
+
+	public String getName() {
 		return name;
-		}
-		public void setName(String name) {
+	}
+
+	public void setName(String name) {
 		this.name = name;
-		}
-		public double getPrice() {
+	}
+
+	public double getPrice() {
 		return price;
-		}
-		public void setPrice(double price) {
+	}
+
+	public void setPrice(double price) {
 		this.price = price;
-		}
-		public int getQuantity() {
-			return quantity;
-		}
-		
+	}
+
+	public int getQuantity() {
+		return quantity;
+	}
+
 	public double totalValueInStock() {
 		return price * quantity;
 	}
